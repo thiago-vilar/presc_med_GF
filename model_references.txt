@@ -1,0 +1,13 @@
+# Prescriptions:
+
+    "Take 1 tablet by mouth once daily."
+    "Apply 2 drops to the affected eye twice a day."
+
+-- ex:
+PrescriptionGrammar> linearize Prescribe (Take Aspirin One Tablet OnceADay)
+Prescreva: Tomar 1 comprimido de aspirina uma vez ao dia
+Prescribe: Take 1 tablet of aspirin once a day
+
+PrescriptionGrammar> linearize Apply Two Drop AffectedEye TwiceADay
+Aplicar 2 gota no olho afetado duas vezes ao dia
+Apply 2 drop to the affected eye twice a day
